@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sec{
+    /* max-width: 1200px;
+    margin: auto; */
+    font-family: 'Inter', sans-serif;
+}   
+
+
+.title h1{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: lighter;
+    
+}
+
+.title h3{
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+
+
+.col_nav{
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    
+    
+}
+.nav{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    max-width: 950px;
+    margin: auto;
+    color: white;     
+}
+.nav h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    /* border: 2px solid green; */
+    padding-left: 1rem;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 40%;
+}
+
+.logo img{
+    width: 10%;
+}
+.logo i{
+    /* border: 2px solid red; */
+    padding-right: .5rem;
+    margin-top: 5px;
+
+}
+
+a {
+    text-decoration: none;
+    /* border: 2px solid blue; */
+    padding: 0 1rem;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+.hamburgar,
+.menu_icon{
+    display: none;
+    float: right;
+}
+p{
+    font-weight: lighter;
+}
+button {
+    /* border: 2px solid red; */
+    padding: .4rem 0;
+    background-color: #20a3c8;
+    border: none;
+    
+}
+.head_main{
+    background-image: url("./images/im\ gh\ \(2\).png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    
+}
+
+
+.sec1{
+    /* border-bottom: 2px solid red; */
+    max-width: 950px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5rem; */
+    padding-top: 12rem;
+} 
+.title h1{
+    /* border: 2px solid blue; */
+    font-size: 48px;
+    padding-bottom: 1rem;
+    font-weight: lighter;
+}
+.title h3{
+    /* border: 2px solid red; */
+    text-align: center;
+    padding-bottom: 12rem;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.form{
+    padding-bottom: 7rem;
+    /* border: 2px solid red; */
+    margin: 0 4rem;
+    word-spacing: .7rem;
+}
+.form input[type=search]{
+    /* border: 2px solid green; */
+    width: 10rem;
+    padding: .3rem 0rem;
+    outline: none;
+    border: none;
+}
+.form input[type=city]{
+    /* border: 2px solid blue; */
+    width: 20rem;
+    padding: .3rem 0rem;
+    outline: none;
+    border: none;
+}
+.form input[type="city"]::placeholder{
+    padding-left: .6rem;
+    font-family: 'Inter', sans-serif;
+    
+}
+.form input[type="search"]::placeholder{
+    padding-left: .6rem;
+    font-family: 'Inter', sans-serif;
+}
+.sec2{
+    max-width: 950px;
+    margin: auto;
+}
+.head h2{
+    /* border: 2px solid green; */
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.ptext{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.empty{
+    /* background-color: #20a3c8; */
+    width: 10%;
+    height: 2%;
+    border: 3px solid #20a3c8;
+    margin: 1rem 45%;
+}
+.grid_images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+    padding-bottom: 3rem;
+    /* width: 100%; */
+    padding-top: 1rem;
+}
+.box{
+    /* border: 2px solid green; */
+    height: 350px;
+    position: relative;
+    background-color: white;
+}
+
+.sec2{
+    padding-bottom: 1.5rem;
+}
+.sec2 button{
+    /* border: 2px solid red; */
+    display: flex;
+    margin: 0rem 45%;
+    width: 9rem;
+    
+    
+}
+.sec2 button a{
+    /* border: 2px solid red; */
+    margin-left: 1.5rem;
+
+}
+.box img{
+    width: 100%;
+    height: 70%;
+}
+.box .figure{
+    background-color: #20a3c8;
+    width: 25%;
+    padding: .3rem;
+    position: absolute;
+    top: 1.5rem;
+    right: 0;
+}
+.box .figure p{
+    text-align: center;
+    color: white;
+
+}
+.box .text{
+    padding-left: 1rem;
+    padding-top: .5rem;
+}
+
+.back3{
+    background-image: url("./images/6524660\ 0.2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+.sec3{
+    /* border: 2px solid red; */
+    max-width: 950px;
+    margin: 0rem auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+.logo2{
+    display: flex;
+    word-spacing: 4rem;
+    margin-bottom: 3rem;
+    /* border: 2px solid blue; */
+    margin-top: 8rem;
+    
+}
+
+
+.logo2 img{
+    /* border: 2px solid red; */
+    width: 17%;
+    padding: .7rem;
+    background-color: #f6f7f8;
+    border-radius: 5px;   
+
+}
+.logo2 h1{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    font-size: 29px;
+    color: white;
+
+}
+.left_side p{
+    /* border: 2px solid green; */
+    font-family: 40px;
+    font-weight: lighter;
+    margin: 2px;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    margin: 6px;
+    color: white;
+
+}
+.left_side a img{
+    width: 40%;
+    padding-top: 4rem;
+    /* border: 2px solid red; */
+    margin-left: -1.6rem;
+    
+}
+
+.right_side img{
+    /* border: 2px solid green; */
+    margin-top: .7rem;
+    height: 93vh;
+
+}
+.sec4{
+    max-width: 950px;
+    margin: auto;
+}
+.sec4 .headtext{
+    text-align: center;
+    padding-top: 5rem;
+}
+.sec4 .ptext{
+    padding-top: 1rem;
+}
+
+.sec4 form{
+    /* border: 2px solid blue; */
+    text-align: center;
+    padding: 1rem;
+}
+.sec44{
+    font-family: 'Inter', sans-serif; 
+}
+
+form input[type="text"]{
+    /* border: 2px solid red; */
+    padding: .3rem 0;
+    outline: none;
+}
+form{
+    word-spacing: .6rem;
+}
+form input[type="text"]::placeholder{
+    /* border: 2px solid green; */
+    padding-left: .5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo h2{
+    font-weight: lighter;
+    /* border: 2px solid red; */
+    padding-left: 1rem;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form button{
+    margin: 3rem 0;
+    
+}
+footer{
+    padding-top: 1rem;
+}
+
+@media (max-width: 460px){
+    .hamburgar {
+        display: block;
+        font-size: 2.2rem;
+        margin-bottom: 7px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        text-align: center;
+        padding-top: 1rem;
+        padding-right: 1rem;
+    }
+    .nav_items{
+        display: none;
+    }
+    .logo h1{
+        font-size: 25px;
+    }
+    .logo img{
+        object-fit: contain;
+        width: 30%;
+       
+        
+    }
+    .title h1{
+        margin: auto;
+        width: 90%;
+        font-size: 2rem;
+        text-align: center;
+        /* margin-left: 1.8rem; */
+        padding-bottom: 2rem;
+    }
+    .title h3{
+        margin: auto;
+        width: 100%;
+        /* margin-left: 1rem; */
+        /* margin-right: 1rem; */
+    }
+    .sec1{
+        position: relative;
+    }
+    .form{
+        display: block;
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* max-width: 1000px; */
+        
+    }
+    .form{
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 80%;
+        left: -1%;
+       
+    }
+    .form input:nth-child(1){
+        /* border: 2px solid blue; */
+        margin: 1rem 0;
+        padding: .3rem, 0, .3rem, 0;
+    }
+    .form input:nth-child(2){
+        margin-top: 1rem;
+    }
+    .form input:nth-child(3){
+        /* border: 2px solid green; */
+        padding-top: 0;
+        margin-top: 2rem; 
+    }
+    .head p{
+        font-size: 18px;
+    }
+    .text p{
+        font-size: 18px;
+    }
+    .grid_images{
+        display: block;
+        padding: 0 1rem;
+    }
+    .sec2 button{
+        margin: 2rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:8rem;
+    }
+    .sec2 button a{
+        margin-right: 1rem;
+    }
+    .sec3{
+        max-width: 460px;
+        margin: auto;
+        display: block;
+    }
+    .right_side img{
+        width: 50%;
+        height: 50vh;
+        margin-left: 11rem;
+        margin-top: -4rem;
+        /* display: none; */
+    }
+    .left_side{
+        padding-left: 1rem;
+        margin-top: -6rem;
+        
+    }
+    .back3{
+        height: 90vh;
+    }
+    .sec4{
+        padding: 0 1rem;
+    }
+    .sec4 form input{
+        margin: 1rem 0;
+    }
+    
+}
